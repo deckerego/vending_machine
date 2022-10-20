@@ -106,6 +106,7 @@ shader_index = 0
 
 while True:
     if power:
+        pixels.brightness = 1.0
         show_timer(SHADERS[shader_index])
     else:
         event_sleep(1.0)
